@@ -119,10 +119,16 @@ export default function HomePage() {
 
   return (
     <main className="container">
-      <header><h1>Welcome to the Metacrafters ATM!</h1></header>
+      <header><h1>Welcome to the NISHA ATM-Metacrafters!</h1></header>
       {initUser()}
       <style jsx>{`
         .container {
+        width: 1500px;
+            height: 800px;
+            background-color:white;
+            text-align: center;
+            color:  purple;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
           text-align: center
         }
       `}
