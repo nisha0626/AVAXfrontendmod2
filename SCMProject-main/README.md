@@ -24,10 +24,10 @@ The `Assessment.sol` file contains the smart contract written in Solidity. It im
 
 Follow these steps to set up and run the solution:
 
-1. Clone the repository to your local machine.
-2. Install the project dependencies by running the following command in the terminal:
-   `npm install`
-3. Deploy the smart contract to a local Ethereum network. You can use tools like Hardhat or Ganache for local development and testing.
+1. After cloning the github, you will want to do the following to get the code running on your computer.
+
+2. Deploy the smart contract to a local Ethereum network. You can use tools like Hardhat or Ganache for local development and testing.
+   
 4. #### Make sure to update the network provider URL and contract address in the `index.js` file.
 5.  Inside the project directory, in the terminal type: npm i
 6. Open two additional terminals in your VS code
