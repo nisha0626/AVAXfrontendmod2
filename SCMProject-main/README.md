@@ -30,7 +30,7 @@ Follow these steps to set up and run the solution:
    
 4. #### Make sure to update the network provider URL and contract address in the `index.js` file.
 5.  Inside the project directory, in the terminal type: npm i
-6. Open two additional terminals in your VS code
+6. Open two additional terminals in your workspace.
 7. In the second terminal type: npx hardhat node
 8. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
 9. Back in the first terminal, type npm run dev to launch the front-end.
