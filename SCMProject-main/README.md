@@ -13,9 +13,10 @@ This solidity code is the solution to the assessment of the "ETH PROOF: Intermed
 ## Solution Overview
 
 The solution consists of two main components:
+1. **Smart Contract**:
+The `Assessment.sol` file contains the smart contract written in Solidity. It implements a basic bank contract with functionalities for depositing, withdrawing, and transferring funds. It emits three events: `Deposit`, `Withdraw`, and `Transfer`.
 
-1. **Smart Contract**: The `Assessment.sol` file contains the smart contract written in Solidity. It implements a basic bank contract with functionalities for depositing, withdrawing, and transferring funds. It emits three events: `Deposit`, `Withdraw`, and `Transfer`.
-2. **JavaScript Code**: The `index.js` file demonstrates how to capture and handle the emitted events. It connects to the Ethereum network, attaches the deployed contract, and sets up event listeners for the three events. When an event is triggered, relevant information is logged to the console.
+2.**JavaScript Code**: The `index.js` file demonstrates how to capture and handle the emitted events. It connects to the Ethereum network, attaches the deployed contract, and sets up event listeners for the three events. When an event is triggered, relevant information is logged to the console.
 
 ## Getting Started
 
@@ -26,13 +27,16 @@ Follow these steps to set up and run the solution:
 1. Clone the repository to your local machine.
 2. Install the project dependencies by running the following command in the terminal:
    `npm install`
-3. Deploy the smart contract to a local Ethereum network. You can use tools like Hardhat or Ganache for local development and testing. Make sure to update the network provider URL and contract address in the `index.js` file.
-4. Use `npx hardhat node` to setup hardhat environment.
-5. `npx hardhat run --network localhost scripts/deploy.js `to deploy in the localhost.
+3. Deploy the smart contract to a local Ethereum network. You can use tools like Hardhat or Ganache for local development and testing.
+4. #### Make sure to update the network provider URL and contract address in the `index.js` file.
+5.  Inside the project directory, in the terminal type: npm i
+6. Open two additional terminals in your VS code
+7. In the second terminal type: npx hardhat node
+8. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
+9. Back in the first terminal, type npm run dev to launch the front-end.
 
-## Authors
+After this, the project will be running on your localhost. 
+Typically at http://localhost:3000/
 
-Contributors' names and contact info
 
-Ankit Kunwar
-[@ankit04k](https://twitter.com/Ankit04K)
+
